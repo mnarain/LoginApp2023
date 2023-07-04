@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DashboardActivity.class);
         String welcomeMessage = "Welcome " + username;
         intent.putExtra("message", welcomeMessage);
-        intent.putExtra("message2", 404);
         startActivity(intent);
     }
 }

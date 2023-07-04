@@ -22,8 +22,6 @@ public class DashboardActivity extends AppCompatActivity {
         String message = intent.getStringExtra("message");
         TextView textView = (TextView) findViewById(R.id.welcomeMessage);
         textView.setText(message);
-        int message2 = intent.getIntExtra("message2",0);
-        Toast.makeText(this, message2, Toast.LENGTH_LONG).show();
     }
 
     public void logoutUser(View view) {
